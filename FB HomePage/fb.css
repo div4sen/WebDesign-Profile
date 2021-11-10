@@ -1,0 +1,144 @@
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background: #3b5998;
+    width: 100%;
+    height: 80px;
+}
+.logo{
+    width: 50%;
+    padding-top: 32px;
+    float: left;
+}
+.logotext {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    margin-left: 170px;
+}
+.login {
+    width: 50%;
+    float: right;
+    padding-top: 10px;
+}
+.login-controls {
+    
+    margin-left: 170px;
+}
+.login-label {
+    color: white;
+    font-size: 11px;
+    margin-left: 2px;
+}
+.forgotten-label {
+    color: white;
+    font-size: 11px;
+    text-decoration: none;
+    margin-left: 2px;
+}
+.login-button {
+    background: #4267b2;
+    color: white;
+    border-color: #29487d;
+    height: 20px;
+    cursor:pointer;
+}
+.login-button:hover {
+    background: red;
+}
+.left-section {
+    width :30%;
+    float: left;
+    padding-left: 135px;
+    padding-top: 52px;
+}
+.right-section {
+    width:40%;
+    float: right;
+    margin-top: 10px;
+}
+.para {
+    font-weight: bold;
+    font-size: 21px;
+}
+.main-body {
+    background: linear-gradient(white,#D3D8E8);
+    width: 100%;
+    height: 600px;
+}
+.image-left{
+    width: 581px;
+    
+}
+.first-name {
+    height: 24px;
+    width: 200px;
+    border-radius: 4px;
+    font-size: 15px;
+    border-color: lightslategray;
+}
+.form-header {
+    margin-left: 5px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.form-para  {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.form-name {
+    border-radius: 4px;
+    font-size: 15px;
+    border-color: lightslategray;
+    margin: 5px;
+    width : 35%;
+    height: 24px;
+}
+.form-email {
+    margin: 5px;
+    width: 74%;
+    height: 24px;
+    border-radius: 4px;
+    font-size: 15px;
+    border-color: lightslategray;
+}
+.form-select {
+    margin-top: 5px;
+    width: 12%;
+    border-color: lightsteelblue;
+    border-radius: 4px;
+    float: left;
+}
+.birthday-label {
+
+    height: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: grey;
+    
+    
+}
+.form-radio {
+    width: 5%;
+}
+.form-terms {
+    text-decoration-line: none;
+    color:blue;
+    font-size: 18px;
+    font-weight: bold;
+}
+.form-submit {
+    width: 40%;
+    height: 40px;
+    margin: 20px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+}
