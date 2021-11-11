@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <div class="main-body">
+        <div class ="calc">
+            <div class="output">
+                <input type="text" id="screen" class="screen">
+            </div>
+            <div class="buttons">
+                <button class ="btn" onclick="screenclear()">Clear</button>
+                <div class="row">
+                    <button class ="btn" onclick="buttonClicked(7)">7</button>
+                    <button class ="btn"onclick="buttonClicked(8)">8</button>
+                    <button class ="btn"onclick="buttonClicked(9)">9</button>
+                    <button class ="btn"onclick="buttonClicked('+')">+</button>
+                </div>
+                <div class="row">
+                    <button class ="btn"onclick="buttonClicked(4)">4</button>
+                    <button class ="btn"onclick="buttonClicked(5)">5</button>
+                    <button class ="btn"onclick="buttonClicked(6)">6</button>
+                    <button class ="btn"onclick="buttonClicked('-')">-</button>
+                </div>
+                <div class="row">
+                    <button class ="btn"onclick="buttonClicked(1)">1</button>
+                    <button class ="btn"onclick="buttonClicked(2)">2</button>
+                    <button class ="btn"onclick="buttonClicked(3)">3</button>
+                    <button class ="btn"onclick="buttonClicked('*')">*</button>
+                </div>
+                <div class="row">
+                    <button class ="btn"onclick="buttonClicked('.')">.</button>
+                    <button class ="btn"onclick="buttonClicked(0)">0</button>
+                    <button class ="btn"onclick="buttonClicked('/')">/</button>
+                    <button class ="btn"onclick="buttonClicked('=')">=</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
