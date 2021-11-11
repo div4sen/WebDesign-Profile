@@ -53,7 +53,7 @@ body {
     background: red;
 }
 .left-section {
-    width :40%;
+    width :50%;
     float: left;
     padding-left: 135px;
     padding-top: 52px;
@@ -93,6 +93,12 @@ body {
     font-size: 14px;
     font-weight: bold;
 }
+.signup-form {    
+}
+.signup-fieldname {
+    height: 30px;
+
+}
 .form-name {
     border-radius: 4px;
     font-size: 15px;
@@ -101,23 +107,27 @@ body {
     width : 35%;
     height: 24px;
 }
+.signup-field {
+   height: 35px;
+}
 .form-email {
     margin: 5px;
-    width: 74%;
+    width : 35%;
     height: 24px;
+    
     border-radius: 4px;
     font-size: 15px;
     border-color: lightslategray;
 }
 .form-select {
-    margin-top: 5px;
+    margin: 5px;
     width: 12%;
     border-color: lightsteelblue;
     border-radius: 4px;
     float: left;
 }
 .birthday-label {
-
+    margin: 5px;
     height: 30px;
     font-size: 15px;
     font-weight: bold;
